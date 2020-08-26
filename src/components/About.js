@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import { baseUrl } from "../shared/baseUrl";
 import { Loading } from "./Loading";
-import { FadeTransform, Fade, Stagger } from "react-animation-components";
+import { FadeTransform, Fade } from "react-animation-components";
 
 function About(props) {
   function RenderLeader({ leader }) {
